@@ -1,10 +1,10 @@
 USE employeeDB;
 
 INSERT INTO department (name)
-VALUES ('Design'), ('Marketing');
+VALUES ('Test and Development Center'), ('Race Support');
 
 INSERT INTO role (title, salary, departmentId)
-VALUES ('Design Director', 90000, 1), ('Web Designer', 50000, 1), ('Print Designer', 40000, 1), ('Creative Director', 80000, 2), ('Marketing Manager', 70000, 2), ('Social Media Specialist', 40000, 2);
+VALUES ('Design Test Manager', 175201, 1), ('Race Engineer', 120526, 1), ('Race Technician', 70000, 1), ('Material Technician', 80000, 2), ('', 70000, 2), ('Health and Safety Manager', 80000, 2);
 
 INSERT INTO employee (firstName, lastName, roleId)
 VALUES ('Samuel', 'Anita', 1), ('Blue', 'Color', 4), ('Daniel', 'Julia', 5);
